@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mokausi_data_crawler"
+version = "0.1.0"
+description = ""
+authors = ["ingri <mokymui25@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+lxml = "^4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
